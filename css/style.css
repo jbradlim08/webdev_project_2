@@ -1,0 +1,112 @@
+body{
+    margin: 0; 
+    background-color: white;
+}
+
+/*NAV BAR*/
+
+#nav{
+    width: 100%;
+    background-color: #7f9598;
+    height: 45px;
+    display: flex;
+
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+#nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+#nav ul li{
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav ul li a:hover{
+    text-decoration: underline;
+    color: #384951;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*RESUME*/
+
+#main-resume{
+    margin: auto;
+    width: 1040px;
+    background-color: white;
+    box-shadow: 
+    0 0 20px rgba(0, 0, 0, 0.2), /* Base shadow */
+    -10px 0 30px rgba(0, 0, 0, 0.1), /* Left fade */
+    10px 0 30px rgba(0, 0, 0, 0.1); /* Right fade */
+
+    margin-top: 25px;
+    padding: 15px;
+}
+
+#main-resume h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#resume-section{
+    border-top: 1.5px solid #7f9598;
+    padding-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#resume-section section h2{
+    padding: 0px;
+}
+
+
+
+/*FOOTER*/
+
+#footer{
+    width: 100%;
+    background-color: #7f9598;
+    display: flex;
+    bottom: 0;
+}
+
+#footer p{
+    color: white;
+    padding: 10px;
+    height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer p a em{
+    text-decoration: underline;
+    color: white;
+}
+
+#footer p a:hover{
+    text-decoration: underline;
+    color: #384951;
+}
+
+#footer p a em:hover{
+    text-decoration: underline;
+    color: #384951;
+}
