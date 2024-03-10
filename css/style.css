@@ -19,6 +19,11 @@
     background-attachment: fixed;
 }
 
+#body-ai{
+    margin: 0; 
+    background-color: white;
+}
+
 /*NAV BAR*/
 
 #nav{
@@ -196,7 +201,6 @@ header{
     align-items: center;
     
     background-color: #ebedeb;
-    padding-right: 25px;
 }
 
 #hobby-drawing-left ul{
@@ -229,6 +233,13 @@ header{
 
     overflow-y: auto;
     opacity: 1;
+    
+    transition: width 1s;
+    transition-delay: 2s;
+}
+
+#hobby-section-fixed:hover{
+    width: 350px;
 }
 
 #hobby-section-fixed img{
@@ -243,7 +254,41 @@ header{
 }
 
 /*AI*/
+#main-ai{
+    margin: auto;
+    background-color: white;
 
+    margin-top: 25px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-ai h1{
+    text-align: center;
+    border-bottom: 2px solid #7f9598;
+
+    padding-bottom: 20px;
+}
+
+#main-ai-description{
+    text-align: justify;
+    border-bottom: 2px solid #7f9598;
+
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#ai-section{
+
+}
+
+
+
+#ai-section img{
+    width: 400px;
+}
 
 
 /*FOOTER*/
