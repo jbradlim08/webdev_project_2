@@ -52,12 +52,13 @@
     display: flex;
     list-style-type: none;
     align-items: center;
-    width: 1040px;
     margin: auto;
+
+    padding-right: 50px;
 }
 
 #nav ul li{
-    padding-right: 20px;
+    padding: 0px 20px 0px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
 }
