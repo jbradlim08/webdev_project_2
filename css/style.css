@@ -336,7 +336,10 @@ header{
     transform: scale(1.2);
 }
 
-
+/*MAP*/
+#main-map{
+    margin-top: 100px;
+}
 
 /*FOOTER*/
 
