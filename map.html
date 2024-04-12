@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>Google Maps</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/map.js"></script>
-
-    <style>
-        #map {
-            height: 600px;
-            width: 70%;
-            margin: auto;
-            margin-bottom: 20px;
-        }
-
-        h1{
-            text-align: center;
-        }
-    </style>
     
 </head>
 <body>
@@ -36,30 +22,12 @@
     <main id="main-map">
         <h1>Google Map</h1>
         <div id="map"></div>
-        
-        <script>
-            function initMap() {
-                // Map options
-                var position = {
-                    center: { lat: 41.8781, lng: -87.6298 }, // Chicago coordinates
-                    zoom: 13
-                };
-
-                // Create map
-                var map = new google.maps.Map(document.getElementById('map'), position);
-
-                
-                
-            }
-        </script>
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaOHl8AkB9gp_EoUag7jn42xrKL9JmJFs&callback=initMap" 
-            async defer></script>
-
     </main>
     <footer id="footer">
         <p>By Javier Bradlim</p>
         <p>email: <a href="mailto:jbradlim1@hawk.iit.edu"><em>jbradlim@hawk.iit.edu</em></a></p>
     </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaOHl8AkB9gp_EoUag7jn42xrKL9JmJFs&callback=initMap" async defer></script>
 </body>
 </html>
