@@ -341,9 +341,21 @@ header{
     margin-top: 100px;
 }
 
+#main-map h1{
+    text-align: center;
+}
+
+#map {
+    height: 600px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 /*FOOTER*/
 
 #footer{
+    width: 100%;
     background-color: #7f9598;
     bottom: 0;
     align-items: center;
@@ -376,4 +388,28 @@ header{
 #footer p a em:hover{
     text-decoration: underline;
     color: #384951;
+}
+
+
+@media (min-width: 600px){
+    #nav{
+        width: 100%;
+    }
+
+    #footer{
+        width: 100%;
+        position: relative;
+    }
+
+    #body-resume{
+        background-size: 100%;
+    }
+
+    #body-hobby{
+        background-size: 100%;
+    }
+
+    #body-ai{
+        background-size: 100%;
+    }
 }
