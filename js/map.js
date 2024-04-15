@@ -17,7 +17,7 @@ function initMap() {
     // CONTENT WINDOW
     var contentString = '<h1>Medan</h1>';
 
-    var infoWindow = new google.maps.InfoWindow({
+    var infoWindow = new google.maps.InfoWindow({ 
         content: contentString
     });
     
